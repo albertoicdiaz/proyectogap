@@ -52,3 +52,4 @@ class Analisis(models.Model):
     percentaje_t = models.FloatField(max_length=50)
     percentaje_f = models.FloatField(max_length=50)
     date_analysis = models.DateField(default=timezone.now)
+###
