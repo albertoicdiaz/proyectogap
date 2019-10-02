@@ -1,0 +1,22 @@
+Dominio; Total verdaderas; Total Falsas; Porcentaje Cumplimiento; Porcentaje no cumplimiento; Recomendaciones
+D1;2.0;1.0;28;14;Se recomienda la realización de una política de seguridad informática, que debe contener los conceptos de seguridad de la información, una estructura para establecer los objetivos y las formas de control y el compromiso de la dirección con políticas.
+
+D10;0.0;0.0;0;0;Se recomienda que los planes de continuidad del negocio deben ser desarrollados e implementados, con el fin de impedir la interrupción de las actividades del negocio y asegurar que las operaciones esenciales sean rápidamente recuperadas.
+
+D11;0.0;0.0;0;0;Se recomienda realizar una revisión para evitar la violación de cualquier ley criminal o civil, garantizando estatutos, regulación u obligaciones contractuales y de cualesquiera requisitos de seguridad de la información. En caso necesario, la empresa puede contratar una consultoría especializada, para que verifique su cumplimiento y adherencia a los requisitos legales y reglamentarios.
+D2;0.0;0.0;0;0;Se recomienda establecer una estructura para implementar la seguridad de la información en una empresa y de esta manera gestionarla de manera adecuada. Para ello, las actividades de seguridad de la información deben ser coordinadas por representantes de la organización que deben tener responsabilidad bien definidas y proteger las informaciones de carácter confidencial.
+
+D3;0.0;0.0;0;0;Se recomienda identificar y clasificar los activos, de modo que un inventario pueda ser estructurado y posteriormente mantenido. Además, deben seguir reglas documentadas, que definen que tipo de uso se permite con dichos activos.
+
+D4;0.0;0.0;0;0;Se recomienda la revisión de seguridad de acuerdo con políticas y procedimiento establecidos por la organización o por otra parte que los empleados de la organización reciban entrenamiento adecuado de seguridad correspondiente a sus funciones.
+
+D5;0.0;0.0;0;0;Se recomienda que los equipos y instalaciones de procesamiento de información critica o sensible deben mantenerse en áreas seguras, con niveles y controles de acceso apropiados, incluyendo protección contra amenazas físicas y ambientales.
+
+D6;0.0;0.0;0;0;Se recomienda que los procedimientos y responsabilidades por la gestión y operación de todos los recursos de procesamiento de la información estén definidos. Esto incluye la gestión de servicio tercerizados, la planificación de recurso del sistema para minimizar el riesgo de fallas, la creación de procedimientos para la generación de copias de seguridad y su recuperación.
+
+D7;0.0;0.0;0;0;Se recomienda que los recursos de procesamiento de la información y los procesos de negocios deben ser controlado con base en los requisitos de negocio y en la seguridad de la información. Debe garantizarse el acceso de cada usuario autorizado y prevenido el acceso no autorizados a los sistema de información de manera que evite daños a documentos y recursos de procesamiento de la información que estén fuera de alcance de cualquiera.
+
+D8;0.0;0.0;0;0;Se recomienda que los requisitos de seguridad de los sistema de información debe ser identificados y acordados antes de su desarrollo y/o de su implementación, para que así puedan ser protegidos para el mantenimiento de su confidencialidad, autenticidad o integridad por medio criptográficos.
+
+D9;0.0;0.0;0;0;Se recomienda que los procedimientos formales de registro y escalonamiento deben ser establecidos y los empleados, proveedores y terceros deber ser conscientes de los procedimientos para notificar los eventos de seguridad de la información para asegurar que se comuniquen lo más rápido posible y corregidos en tiempo hábil.
+

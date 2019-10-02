@@ -1,0 +1,115 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <title>Plan director de seguridad</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="http://getbootstrap.com/docs/4.1/examples/floating-labels/floating-labels.css">
+
+    <!-- Custom styles for this template -->
+    <link href="floating-labels.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'style.css' %}" class="sty">
+</head>
+
+<body>
+
+<form class="form-signin" method="POST">
+    {% csrf_token %}
+    <div class="text-center mb-4">
+
+        <h1 class="h3 mb-3 font-weight-normal"><b>Bienvenido al plan director de seguridad</b></h1>
+        <p>Aquí podras someter a un análisis GAP a tu empresa.</p>
+        <p>¿Sabes lo que es un análisis GAP?</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+            Leer más
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
+             aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalScrollableTitle">Análisis GAP</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>El Análisis GAP es un servicio que permite identificar la brecha que existe
+                            entre la organización actual de la seguridad de la información en la empresa
+                            y las buenas prácticas más reconocidas en la industria. La forma de realizar
+                            esta evaluación es por medio de entrevistas para identificar la situación actual
+                            de la empresa en base a diferentes criterios de dominio, todo esto para ayudar
+                            a la empresa a minimizar la brecha que existe en la empresa y la seguridad de la
+                            información.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <br>
+                <label><b>Registrar Empresa</b></label>
+                <a href="{% url 'createCompany' %}">
+                    <button type="button" class="btn btn-secondary">Registrar</button>
+                </a>
+            </div>
+            <div class="col-6">
+                <br>
+                <label><b>Comenzar Encuesta</b></label>
+                <a href="{% url 'login' %}">
+                    <button type="button" class="btn btn-success">Comenzar</button>
+                </a>
+            </div>
+        </div>
+        {% if messages %}
+            {% for message in messages %}
+
+                <div class="alert {{ message.tags }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+
+            {% endfor %}
+        {% endif %}
+
+    </div>
+    <div id="login">
+        <p class="mt-5 mb-3 text-muted text-center">&copy; 2019</p>
+    </div>
+</form>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
