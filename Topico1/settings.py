@@ -55,7 +55,7 @@ MIDDLEWARE = [
 MIDDLEWARE_CLASSES = (
     # Simplified static file serving.
     # https://warehouse.python.org/project/whitenoise/
-
+)
 ROOT_URLCONF = 'Topico1.urls'
 
 TEMPLATES = [
