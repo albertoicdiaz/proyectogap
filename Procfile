@@ -1,1 +1,1 @@
-web: gunicorn plandirector.wsgi
+web: gunicorn Topico1.wsgi
