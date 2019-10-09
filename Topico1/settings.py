@@ -25,7 +25,7 @@ SECRET_KEY = '-go04b_4l6eb)ppy)4*&b1uc4)$460k!2f+n95^9f7(7((*tbt'
 DEBUG = True
 DISABLE_COLLECTSTATIC=1
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['plandirector.herokuapp.com',]
 
 
 # Application definition
